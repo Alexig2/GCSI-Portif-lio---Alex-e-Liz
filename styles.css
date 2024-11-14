@@ -13,8 +13,12 @@ body {
 header {
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   display: flex;
+  background-color: #14263d;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 h2 {
