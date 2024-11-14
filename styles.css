@@ -10,15 +10,41 @@ body {
   background-color: #0d1a2d;
 }
 
+header {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+  display: flex;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 15px 0 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #8a9ab5;
+}
+
+.texto {
+  padding-top: 25px;
+  padding-left: 20px;
+  font-weight: bold;
+}
 
 .cardlist {
-  padding-top: 200px;
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+.espaco {
+  padding: 50px;
 }
 
 .card {
@@ -38,16 +64,6 @@ body {
 .image-container img {
   width: 100%;
   border-radius: 10px;
-}
-
-h2 {
-  font-size: 1.2rem;
-  margin: 15px 0 10px;
-}
-
-p {
-  font-size: 0.9rem;
-  color: #8a9ab5;
 }
 
 .details {
@@ -95,5 +111,10 @@ p {
 }
 
 .cor {
-    color: #43bcff;
+  color: #43bcff;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 60px;
 }
